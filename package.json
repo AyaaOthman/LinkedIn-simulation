@@ -1,0 +1,16 @@
+{
+  "name": "linkedin-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "tailwindcss": "^3.3.3"
+  },
+  "devDependencies": { "tailwindcss": "^3.3.3"},
+  "scripts": {
+    "build": "tailwindcss -i ./src/input.css -o ./dist/output.css",
+    "watch": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "author": "",
+  "license": "ISC"
+}

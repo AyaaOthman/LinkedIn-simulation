@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="../output.css" rel="stylesheet" />
+    <title>Linkedin | Feed</title>
+  </head>
+  <body class="bg-lightGray">
+    <header class="bg-white w-full xs\:w-full p-2">
+      <!-- logo -->
+      <nav
+        class="py-3 container flex xl:justify-between lg:justify-between md:justify-center sm:justify-center items-center mx-auto xs:gap-5"
+      >
+        <div class="flex justify-center md:gap-10 items-center">
+          <a href="" id="home-link" class="w-8"
+            ><img class="w-full" src="../../media/linkedinlogo.webp" alt="" />
+          </a>
+
+          <div class="flex items-center justify-around">
+            <input
+              type="search"
+              name="search"
+              id="search-bar"
+              class="bg-lightGray mx-3 px-3 rounded-md relative sm:scale-0 xs:scale-0 lg:scale-100 xl:scale-100 md:scale-100 transition ease-in-out"
+            />
+
+            <i
+              id="searchIcon"
+              class="absolute xl:-ml-60 lg:-ml-60 md:-ml-60 sm:-ml-48 xs:-ml-50 fa-solid fa-magnifying-glass fa-lg cursor-pointer"
+            ></i>
+          </div>
+        </div>
+        <ul
+          id="nav-list"
+          class="flex items-center lg:gap-3 md:gap-4 sm:gap-4 xs:gap-7 md:ml-4"
+        >
+          <li>
+            <a href="" id="home-link">
+              <div class="flex flex-col justify-center items-center">
+                <i
+                  class="fa-solid fa-house fa-lg mb-3 text-[#5c5e60] hover:text-black"
+                ></i>
+                <p
+                  class="font-thin text-sm hover:text-black lg:block xl:block md:hidden sm:hidden xs:hidden"
+                >
+                  Home
+                </p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/pub/dir/+/+?trk=guest_homepage-basic_guest_nav_menu_people"
+            >
+              <div class="flex flex-col justify-center items-center">
+                <i
+                  class="fa-solid fa-user fa-lg mb-3 text-[#5c5e60] hover:text-black"
+                ></i>
+                <p
+                  class="font-thin text-sm hover:text-black lg:block xl:block md:hidden sm:hidden xs:hidden"
+                >
+                  My Network
+                </p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/jobs/search?trk=guest_homepage-basic_guest_nav_menu_jobs"
+            >
+              <div class="flex flex-col justify-center items-center">
+                <i
+                  class="fa-solid fa-briefcase fa-lg mb-3 text-[#5c5e60] hover:text-black"
+                ></i>
+                <p
+                  class="font-thin text-sm hover:text-black lg:block xl:block md:hidden sm:hidden xs:hidden"
+                >
+                  Jobs
+                </p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/learning/search?trk=guest_homepage-basic_guest_nav_menu_learning"
+            >
+              <div class="flex flex-col justify-center items-center">
+                <i
+                  class="fa-solid fa-comment fa-lg mb-3 text-[#5c5e60] hover:text-black"
+                ></i>
+                <p
+                  class="font-thin text-sm hover:text-black lg:block xl:block md:hidden sm:hidden xs:hidden"
+                >
+                  Messaging
+                </p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/learning/search?trk=guest_homepage-basic_guest_nav_menu_learning"
+            >
+              <div class="flex flex-col justify-center items-center">
+                <i
+                  class="fa-solid fa-bell fa-lg mb-3 text-[#5c5e60] hover:text-black"
+                ></i>
+                <p
+                  class="font-thin text-sm hover:text-black lg:block xl:block md:hidden sm:hidden xs:hidden"
+                >
+                  Notification
+                </p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <div class="flex flex-col justify-center items-center ml-4">
+              <img
+                src="../../media/user-placeholder-image.png"
+                alt=""
+                class="w-7 -mt-3"
+              />
+              <p
+                class="font-thin text-sm hover:text-black lg:block xl:block md:hidden sm:hidden xs:hidden"
+              >
+                Me <i class="fa-solid fa-sort-down"></i>
+              </p>
+            </div>
+          </li>
+          <li
+            class="w-0.5 h-12 bg-gray-300 sm:hidden xs:hidden lg:block xl:block md:block"
+          ></li>
+          <li>
+            <div
+              class="flex flex-col justify-center items-center ml-4 sm:hidden xs:hidden lg:flex xl:flex md:flex"
+            >
+              <div>
+                <i class="fa-solid fa-ellipsis-vertical"></i>
+                <i class="fa-solid fa-ellipsis-vertical"></i>
+                <i class="fa-solid fa-ellipsis-vertical"></i>
+              </div>
+              <p
+                class="font-thin text-sm hover:text-black lg:block xl:block md:hidden sm:hidden xs:hidden"
+              >
+                For Business <i class="fa-solid fa-sort-down"></i>
+              </p>
+            </div>
+          </li>
+          <li>
+            <a
+              class="font-thin text-sm w-2/3 text-center text-orange-950 underline lg:block xl:block sm:hidden xs:hidden"
+              href="https://www.linkedin.com/premium/survey/?destRedirectURL=https%3A%2F%2Fwww.linkedin.com%2Fjobs%2F%3F%3D&referenceId=c6CaSPdiSAi%2FjoxgDGuxuQ%3D%3D&upsellOrderOrigin=premium_nav_upsell_text"
+            >
+              Try Premium For Free
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section class="container mx-auto flex gap-5 my-7">
+      <div id="left-section" class="basis-2/3 flex flex-col gap-1">
+        <!-- card one -->
+        <div class="bg-white rounded-md flex flex-col">
+          <!-- cover img -->
+          <div class="relative">
+            <img
+              src="../../media/default-cover.png"
+              class="w-full object-cover"
+              alt=""
+            />
+          </div>
+          <label class="w-36 mt-16 ml-4 absolute" for="profile-image-input">
+            <img
+              class="w-full object-cover border rounded-full p-2"
+              src="../../media/cameraa.jpg"
+              alt=""
+              id="profile-image"
+            />
+            <input
+              type="file"
+              name="profile-image-input"
+              id="profile-image-input"
+              accept="image/png, image/gif, image/jpeg"
+              class="hidden"
+              onchange=" changeProfile(this)"
+            />
+          </label>
+          <!-- profile data -->
+          <div class="flex justify-between p-4 mt-10 mx-4">
+            <!-- name& titile -->
+            <div>
+              <h2 class="text-lg font-bold" id="user-name">User Name</h2>
+              <h3 class="text-lg"><a href="" id="userTitle">Title</a></h3>
+              <p id="userCity">country</p>
+            </div>
+
+            <!-- education -->
+            <div class="flex items-center">
+              <i class="fa-solid fa-graduation-cap"></i>
+              <p class="font-semibold">set your education</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="right-section" class="basis-1/3 flex flex-col gap-1">
+        <!-- card one -->
+
+        <div class="bg-white rounded-md flex flex-col px-2">
+          <div class="flex justify-between items-center p-4">
+            <p>
+              <span class="text-lg font-bold">Profile Language</span> <br />
+              English
+            </p>
+            <i class="fa fa-pencil-square fa-xl" aria-hidden="true"></i>
+          </div>
+
+          <hr />
+          <div class="flex justify-between items-center p-4">
+            <p>
+              <span class="text-lg font-bold">Public profile & URL</span>
+              <br />www.linkedin.com
+            </p>
+            <i class="fa fa-pencil-square fa-xl" aria-hidden="true"></i>
+          </div>
+        </div>
+        <!-- card Two -->
+
+        <div>
+          <img class="rounded-md w-full" src="../../media/hiring.png" alt="" />
+        </div>
+        <!-- card Three -->
+
+        <div class="bg-white rounded-md p-2 flex flex-col gap-4">
+          <div class="flex justify-between">
+            <h2 class="font-semibold">Add to your feed</h2>
+            <i class="fa-solid fa-circle-info"></i>
+          </div>
+          <!-- suggested accounts to follow -->
+          <div id="suggested-accounts-container"></div>
+          <!-- <div class="flex items-start">
+            <a href="./profile.html" class="w-16"
+              ><img
+                class="w-full h-full object-fit border-2 border-primaryBlue rounded-full p-2"
+                src="../../media/cameraa.jpg"
+                alt=""
+              />
+            </a>
+            <p class="flex flex-col justify-start ml-3 mt-1">
+              <a href="./profile.html" class="font-semibold"> User Name</a>
+              <a class="text-sm" href="./profile.html">Job Title</a>
+              <button
+                class="border-2 rounded-2xl py-1 mt-2 w-20 text-md font-semibold"
+              >
+                + Follow
+              </button>
+            </p>
+          </div>
+          <div class="flex items-start">
+            <a href="./profile.html" class="w-16"
+              ><img
+                class="w-full h-full object-fit border-2 border-primaryBlue rounded-full p-2"
+                src="../../media/cameraa.jpg"
+                alt=""
+              />
+            </a>
+            <p class="flex flex-col justify-start ml-3 mt-1">
+              <a href="./profile.html" class="font-semibold"> User Name</a>
+              <a class="text-sm" href="./profile.html">Job Title</a>
+              <button
+                class="border-2 rounded-2xl py-1 mt-2 w-20 text-md font-semibold"
+              >
+                + Follow
+              </button>
+            </p>
+          </div>
+          <div class="flex items-start">
+            <a href="./profile.html" class="w-16"
+              ><img
+                class="w-full h-full object-fit border-2 border-primaryBlue rounded-full p-2"
+                src="../../media/cameraa.jpg"
+                alt=""
+              />
+            </a>
+            <p class="flex flex-col justify-start ml-3 mt-1">
+              <a href="./profile.html" class="font-semibold"> User Name</a>
+              <a class="text-sm" href="./profile.html">Job Title</a>
+              <button
+                class="border-2 rounded-2xl py-1 mt-2 w-20 text-md font-semibold"
+              >
+                + Follow
+              </button>
+            </p>
+          </div> -->
+          <p>
+            <a href=""
+              >View all recommendations <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </p>
+        </div>
+      </div>
+    </section>
+    <script
+      src="https://kit.fontawesome.com/c1a99da7f1.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="profile.js"></script>
+  </body>
+</html>
